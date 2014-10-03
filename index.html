@@ -5,6 +5,7 @@
 	<head>
 		<title>Chat with Me!</title>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link type="text/javascript" href="name"/>
 
 	</head>
 
@@ -16,18 +17,18 @@
 				<h2>Welcome to chat with me!</h2>
 			</div>
 			<!-- This is the chatbox -->
-			<div id="chat_message">
-				<form name="chatmessage" action="">
-				<input name="usrmsg" type="text" id="usrmsg" size="55" />
-				<button>Hit Me</button>
+			<div id="chat_box">
+				<form id="chatmessage">
+				<input name="usrmsg" type="text" size="55" />
+				<button onClick="newmsg()">Submit</button>
+			</form>
 			</div>
-
 			
-			<p id="myweb"<a href="http://darrenmacdonald.ca">Exit Chat</a>
+			<p id="myweb" <a href="http://darrenmacdonald.ca">Exit Chat</a>
 			</p>
 
 		</div>
 
 	</body>
-
+	
 </html>
