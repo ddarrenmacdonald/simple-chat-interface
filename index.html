@@ -6,29 +6,35 @@
 		<title>Chat with Me!</title>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
 		<link type="text/javascript" href="name"/>
-
 	</head>
 
 	<body>
 		<!-- This is the container for my chat box -->
 		<div id="wrapper">
+			
 			<!-- This is my header -->
 			<div id="chat_header">
 				<h2>Welcome to chat with me!</h2>
 			</div>
+
 			<!-- This is the chatbox -->
-			<div id="chat_box">
-				<form id="chatmessage">
-				<input name="usrmsg" type="text" size="55" />
-				<button onClick="newmsg()">Submit</button>
-			</form>
+			<div id="chatBox">
 			</div>
 			
-			<p id="myweb" <a href="http://darrenmacdonald.ca">Exit Chat</a>
+			<!-- This is the user message area -->
+			<div id="msgArea">
+				<input type="text" id="usrMsg" placeholder="What say you?" size=55 ></input>
+				<input type="button" name="submit" id="chatButton" value="Chat this!" onclick="sendMessage()">
+			</div>
+			
+			<!-- Exit to my website -->
+			<p id="myweb">
+				<a href="http://darrenmacdonald.ca">Exit Chat</a>
 			</p>
 
 		</div>
 
+		<script src="script.js"></script>
 	</body>
 	
 </html>
