@@ -1,2 +1,28 @@
-body { color: purple }
-body { background-color: #d8da3d }
+body { 
+	font:14px verdana;
+	color: white 
+	text-align:center;
+	padding:40px;}
+
+#wrapper {
+	margin:5px auto;
+	padding-bottom: 40px;
+	background: #00B869;
+	width:350px;
+	border:1px solid ##171814;}
+
+#chat_header {
+	padding:12.5px 25px 12.5px 25px;
+    font-size: 20px;
+    color: #ffffff }
+
+#chat_message {
+	text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#0065C1;
+    height:275px;
+    width:350px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
