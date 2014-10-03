@@ -8,13 +8,15 @@ body {
 	margin:5px auto;
 	padding-bottom: 40px;
 	background: #00B869;
-	width:350px;
-	border:1px solid ##171814;}
+	width:400px;
+	border:1px solid ##171814;
+	border-radius: 25px;}
 
 #chat_header {
-	padding:12.5px 25px 12.5px 25px;
-    font-size: 20px;
-    color: #ffffff }
+	padding:12px 20px 12px 20px;
+    font-size: 16px;
+    color: #ffffff; 
+	text-align:center;}
 
 #chat_message {
 	text-align:left;
@@ -25,4 +27,5 @@ body {
     height:275px;
     width:350px;
     border:1px solid #ACD8F0;
+    border-radius: 40px;
     overflow:auto; }
