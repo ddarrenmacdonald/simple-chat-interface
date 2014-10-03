@@ -1,8 +1,8 @@
-function sendMessage(event){
+function sendMsg(event){
     var msg = document.getElementById("usrMsg").value;
-    var para = document.createElement("P");
+    var pNew = document.createElement("P");
 	var txtnode = document.createTextNode(msg);
-	para.appendChild(txtnode);
-	document.getElementById("chatBox").appendChild(para);
+	pNew.appendChild(txtnode);
+	document.getElementById("chatBox").appendChild(pNew);
 	document.getElementById("usrMsg").value="";
 };
